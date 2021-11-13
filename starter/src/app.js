@@ -5,9 +5,9 @@ import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 
 const apiOptions = {
-  "apiKey": 'AIzaSyDSx6RKM0-IITo6drRuPhqVnpYhouLLmFM',
+  "apiKey": 'Your_API',
   "version": "beta",
-  "map_ids": ["76c9b79aec7302c"]
+  "map_ids": ["Your_Map_ID"]
 };
 
 const mapOptions = {
@@ -15,7 +15,7 @@ const mapOptions = {
   "heading": 0,
   "zoom": 18,
   "center": { lat: 48.85845, lng: 2.29497 },
-  "mapId": "76c9b79aec7302c",
+  "mapId": "Your_Map_ID",
   "styles": [
     { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
     { elementType: "labels.text.stroke", stylers: [{ color: "#242f3e" }] },
